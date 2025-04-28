@@ -1,0 +1,114 @@
+.csc-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .csc-main {
+    flex-grow: 1;
+    width: calc(100% - 240px);
+    margin-left: 240px;
+    padding: 8px;
+    padding-left: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .csc-header {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .csc-button-add {
+    background-color: #0288d1;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-transform: none;
+  }
+  
+  .csc-button-add:hover {
+    background-color: #0277bd;
+  }
+  
+  .csc-error {
+    color: #d32f2f;
+  }
+  
+  .csc-datagrid {
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .csc-datagrid-root .MuiDataGrid-cell {
+    padding: 4px;
+  }
+  
+  .csc-datagrid-root {
+    border: none;
+  }
+  
+  .csc-dialog {
+    background-color: #ffffff;
+  }
+  
+  .csc-dialog-title {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px 16px;
+  }
+  
+  .csc-dialog-content {
+    padding: 8px;
+  }
+  
+  .csc-dialog-actions {
+    padding: 8px;
+  }
+  
+  .csc-button-edit {
+    color: #0288d1;
+    border-color: #0288d1;
+    margin-right: 4px;
+    text-transform: none;
+  }
+  
+  .csc-button-edit:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .csc-button-delete {
+    color: #d32f2f;
+    border-color: #d32f2f;
+    text-transform: none;
+  }
+  
+  .csc-button-delete:hover {
+    background-color: #ffebee;
+  }
+  
+  .csc-button-cancel {
+    color: #0288d1;
+    text-transform: none;
+  }
+  
+  .csc-button-save {
+    background-color: #0288d1;
+    color: white;
+    text-transform: none;
+  }
+  
+  .csc-button-save:hover {
+    background-color: #0277bd;
+  }

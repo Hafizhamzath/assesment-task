@@ -1,0 +1,37 @@
+.form-modal {
+    background-color: #ffffff;
+  }
+  
+  .form-modal-title {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px 16px;
+  }
+  
+  .form-modal-content {
+    padding: 8px;
+  }
+  
+  .form-modal-actions {
+    padding: 8px;
+  }
+  
+  .form-modal-file {
+    margin-top: 8px;
+  }
+  
+  .form-modal-cancel {
+    color: #0288d1;
+    text-transform: none;
+  }
+  
+  .form-modal-submit {
+    background-color: #0288d1;
+    color: white;
+    text-transform: none;
+  }
+  
+  .form-modal-submit:hover {
+    background-color: #0277bd;
+  }
+  

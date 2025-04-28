@@ -1,0 +1,24 @@
+.header-appbar {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .header-toolbar {
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+  
+  .header-title {
+    color: #ff5722;
+  }
+  
+  .header-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-avatar {
+    margin-right: 4px;
+  }

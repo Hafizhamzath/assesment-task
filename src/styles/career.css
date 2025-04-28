@@ -1,0 +1,90 @@
+.career-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .career-main {
+    flex-grow: 1;
+    width: calc(100% - 240px);
+    margin-left: 240px;
+    padding: 8px;
+    padding-left: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .career-header {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .career-button-add {
+    background-color: #0288d1;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-transform: none;
+  }
+  
+  .career-button-add:hover {
+    background-color: #0277bd;
+  }
+  
+  .career-table {
+    min-width: 650px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .career-table-head {
+    background-color: #ff5722;
+  }
+  
+  .career-table-head th {
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+  }
+  
+  .career-table td {
+    padding: 4px;
+  }
+  
+  .career-table-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .career-button-edit {
+    color: #0288d1;
+    border-color: #0288d1;
+    margin-right: 4px;
+    text-transform: none;
+  }
+  
+  .career-button-edit:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .career-button-delete {
+    color: #d32f2f;
+    border-color: #d32f2f;
+    text-transform: none;
+  }
+  
+  .career-button-delete:hover {
+    background-color: #ffebee;
+  }

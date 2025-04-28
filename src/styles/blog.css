@@ -1,0 +1,120 @@
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blog-main {
+    flex-grow: 1;
+    width: calc(100% - 240px);
+    margin-left: 240px;
+    padding: 8px;
+    padding-left: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .blog-header {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .blog-button-add {
+    background-color: #0288d1;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-transform: none;
+  }
+  
+  .blog-button-add:hover {
+    background-color: #0277bd;
+  }
+  
+  .blog-table {
+    min-width: 650px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog-table-head {
+    background-color: #ff5722;
+  }
+  
+  .blog-table-head th {
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+  }
+  
+  .blog-table td {
+    padding: 4px;
+  }
+  
+  .blog-button-edit {
+    color: #0288d1;
+    border-color: #0288d1;
+    margin-right: 4px;
+    text-transform: none;
+  }
+  
+  .blog-button-edit:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .blog-button-delete {
+    color: #d32f2f;
+    border-color: #d32f2f;
+    text-transform: none;
+  }
+  
+  .blog-button-delete:hover {
+    background-color: #ffebee;
+  }
+  
+  .blog-dialog {
+    background-color: #ffffff;
+  }
+  
+  .blog-dialog-title {
+    background-color: #ff5722;
+    color: white;
+    padding: 8px 16px;
+  }
+  
+  .blog-dialog-content {
+    padding: 8px;
+  }
+  
+  .blog-dialog-actions {
+    padding: 8px;
+  }
+  
+  .blog-file-input {
+    margin-top: 8px;
+  }
+  
+  .blog-button-cancel {
+    color: #0288d1;
+    text-transform: none;
+  }
+  
+  .blog-button-save {
+    background-color: #0288d1;
+    color: white;
+    text-transform: none;
+  }
+  
+  .blog-button-save:hover {
+    background-color: #0277bd;
+  }
