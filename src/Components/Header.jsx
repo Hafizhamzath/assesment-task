@@ -8,7 +8,7 @@ const Header = () => {
         <Typography variant="h6" className="header-title">Admin Panel</Typography>
         <Box className="header-user">
           <Avatar alt="Admin" src="/admin.jpg" className="header-avatar" />
-          <Typography variant="body1">Kalyani Kumar - Admin</Typography>
+          <Typography variant="body1"> Admin</Typography>
         </Box>
       </Toolbar>
     </AppBar>
